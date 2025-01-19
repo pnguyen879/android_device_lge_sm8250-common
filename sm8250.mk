@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
-    android.hardware.bluetooth.a2dp@1.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
     liba2dpoffload
@@ -181,7 +180,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    gralloc.kona \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
@@ -190,7 +188,6 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libtinyxml \
     libvulkan \
-    memtrack.kona \
     vendor.display.config@1.16 \
     vendor.display.config@2.0 \
     vendor.display.config@1.16.vendor \
